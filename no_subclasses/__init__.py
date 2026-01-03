@@ -7,4 +7,4 @@ try:
 except ImportError:
     if "setup.py" not in sys.argv[0].lower():raise # 仅在setup.py导入本模块时，忽略错误
 
-__version__ = "1.0.2"
+__version__ = "1.0.2.1"

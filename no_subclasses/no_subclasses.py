@@ -1,7 +1,7 @@
-import sys,builtins,weakref,copy,atexit,traceback
+import builtins,weakref
 from collections import deque
 from warnings import warn
-from pyobject import get_type_subclasses,set_type_subclasses
+from pyobject import set_type_subclasses
 try:import pydetour
 except (ImportError, AttributeError):pydetour = None
 
